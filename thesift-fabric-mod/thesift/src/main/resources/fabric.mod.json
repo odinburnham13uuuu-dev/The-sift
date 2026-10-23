@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "thesift",
+  "version": "${version}",
+  "name": "The Sift",
+  "description": "Adds The Sift, a fourth dimension inspired by Mojang's reveal, with a note-block-lit portal.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.thesift.TheSiftMod"],
+    "client": ["com.example.thesift.TheSiftClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": { "iris": "*", "sodium": "*", "realistic-water": "*" }
+}

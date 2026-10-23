@@ -1,0 +1,2 @@
+{"textures":{"particle":"thesift:block/rift_portal","portal":"thesift:block/rift_portal"},
+ "elements":[{"from":[7.5,0,0],"to":[8.5,16,16],"faces":{"east":{"texture":"#portal"},"west":{"texture":"#portal"}}}]}
